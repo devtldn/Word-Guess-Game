@@ -9,7 +9,6 @@ var guesses = [];
 document.onkeyup = function(event) {
     var userGuess = event.key;
     var aiKey = alphaBet[Math.floor(Math.random() * alphaBet.length)];
-    var wrong = (userGuess !== aiKey);
 
     if (userGuess === aiKey) {
         alert("You're a psychic!!");
