@@ -2,10 +2,16 @@ body {
     text-align: center !important;
 }
 .display-4 {
-    margin-top: 15%;
+    margin: 0 auto;
+    padding: auto;
+    margin-top: 12.5% !important;
 }
 
 .navbar-brand {
     margin: 0 auto !important;
-    
+}
+
+.navbar {
+    padding: auto !important;
+
 }

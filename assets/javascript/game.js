@@ -12,18 +12,17 @@ document.onkeyup = function(event) {
     var wrong = (userGuess !== aiKey);
 
     if (userGuess === aiKey) {
-        wins++;
-        guesses = [];
         alert("You're a psychic!!");
+        wins++;
     } else {
+        alert("Your key was either wrong or not a letter. Please try again.");
         losses++;
-        alert("Your guess was either wrong or was not a letter. Please try again.");
     }
 
-    if (userGuess != aiKey) {
+    if (userGuess !== aiKey) {
         guesses.push(String(" " + userGuess));
     } else {
-        return;
+        guesses = [];
     }
 
     var html =
