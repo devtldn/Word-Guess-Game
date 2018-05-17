@@ -15,7 +15,7 @@ document.onkeyup = function(event) {
         alert("You're a psychic!!");
         wins++;
     } else {
-        alert("Your key was either wrong or not a letter. Please try again.");
+        alert("Your key was either wrong or was not a letter. Please try again.");
         losses++;
     }
 
